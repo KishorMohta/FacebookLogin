@@ -10,8 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SignUp extends PageHandler {
 
-    String email = "9836854197";
-    String alphaNumPass = "kishortm";
 
     @FindBy(xpath = "//div//input[@type='text']")
     private WebElement enterEmailId;
